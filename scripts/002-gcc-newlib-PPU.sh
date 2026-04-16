@@ -8,7 +8,7 @@ if [ ! -d ${GCC} ]; then
 
   ## Download the source code.
   if [ ! -f ${GCC}.tar.xz ]; then wget --continue https://ftp.gnu.org/gnu/gcc/${GCC}/${GCC}.tar.xz; fi
-  if [ ! -f ${NEWLIB}.tar.gz ]; then wget --continue https://sourceware.org/pub/newlib/${NEWLIB}.tar.gz; fi
+  if [ ! -f ${NEWLIB}.tar.gz ]; then wget --continue https://repository.timesys.com/buildsources/n/newlib/newlib-1.20.0/newlib-1.20.0.tar.gz; fi
 
   ## Unpack the source code.
   rm -Rf ${GCC} && tar xfvJ ${GCC}.tar.xz
