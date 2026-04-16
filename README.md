@@ -55,7 +55,7 @@ For RedHat distros:
 
 ## Add the following variables to your bash config:
 ```bash
-  export PS3DEV=/usr/local/ps3dev
+  export PS3DEV=/opt/toolchains/ps3dev
   export PSL1GHT=$PS3DEV
 
   export PATH=$PATH:$PS3DEV/bin
